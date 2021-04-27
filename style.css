@@ -1,0 +1,41 @@
+:root {
+    --moderate-violet: hsl(263, 55%, 52%);
+    --very-dark-grayish-blue: hsl(217, 19%, 35%);
+    --very-dark-darkish-blue: hsl(219, 29%, 14%);
+    --light-gray: hsl(0, 0%, 81%);
+    --light-grayish-blue: hsl(210, 46%, 95%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.card-1 {
+    background-color: var(--moderate-violet);
+}
+
+.card-2 {
+    background-color: var(--very-dark-grayish-blue);
+}
+
+.card-3 {
+    background-color: white;
+}
+
+.card-4 {
+    background-color: var(--very-dark-darkish-blue);
+}
+
+.card-5 {
+    background-color: white;
+}
+
+.card-text {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 13px;
+}
